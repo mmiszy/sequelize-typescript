@@ -1,6 +1,6 @@
 {
-  "name": "sequelize-typescript",
-  "version": "0.6.7-beta.1",
+  "name": "@mmiszy/sequelize-typescript",
+  "version": "0.6.8",
   "description": "Decorators and some other extras for sequelize (v3 + v4)",
   "scripts": {
     "build": "tsc --project lib/models/v4 && tsc",
@@ -105,5 +105,10 @@
     "all": true,
     "check-coverage": true,
     "report-dir": "./coverage"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
   }
 }
